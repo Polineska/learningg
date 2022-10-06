@@ -1,7 +1,6 @@
 name=input("Имя студента")
-sername=input("Фамилия студена")
-C=int(input("Год рождения"))
-A, B= B, A
-C+=60
-#print(A,B,C, sep="_")
-print(A,B,C, sep="_")
+surname=input("Фамилия студена")
+birth=int(input("Год рождения"))
+name, surname= surname, name
+birth+=60
+print(name,surname,birth, sep="_")
